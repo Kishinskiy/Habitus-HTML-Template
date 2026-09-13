@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 780px;
+  height: 800px;
   padding: 155px 40px 60px 40px;
   text-align: center;
   background-color: $bg-orange;
@@ -21,7 +21,7 @@
 }
 
 .hero_container {
-  max-width: 670px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +90,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    margin-top: 80px;
+    margin-top: 140px;
     background: #1a1a1a;
     border: 1px solid black;
     border-radius: 50px;
@@ -107,37 +107,71 @@
 
   .habit_tracker {
     position: absolute;
-    left: -80px;
     width: 220px;
     height: auto;
-    transform: rotate(-20deg) translateY(360px);
+    transform: rotate(-20deg) translateY(140px) translateX(-640px);
     z-index: 2;
   }
 
   .Settings {
     position: absolute;
-    left: 200px;
     width: 220px;
     height: auto;
-    transform: rotate(4deg) translateY(360px);
+    transform: rotate(4deg) translateY(480px) translateX(-400px);
     z-index: 1;
   }
 
   .dashboard {
     position: absolute;
-    right: 40px;
     width: 220px;
     height: auto;
-    transform: rotate(14deg) translateY(480px);
+    transform: rotate(14deg) translateY(340px) translateX(510px);
     z-index: 2;
   }
 
   .Goals {
     position: absolute;
-    right: 60px;
     width: 220px;
     height: auto;
-    transform: rotate(-14deg) translateY(340px);
+    transform: rotate(-14deg) translateY(460px) translateX(510px);
     z-index: 1;
   }
+
+  .shape {
+    position: absolute;
+    width: 72px;          
+    height: 72px;         
+    border-radius: 50%;    
+  }
+
+  .circle1 {
+    transform: translateY(80px) translateX(-500px); 
+    background-color: white; 
+}
+
+  .circle2 {
+    transform: translateY(240px) translateX(-340px); 
+    background-color: #FEC6C7; 
+  }
+
+  .circle3 {
+    transform: translateY(290px) translateX(-310px);
+    background-color: #DBEDFB; 
+}
+
+  .circle4 {
+    transform: translateY(450px) translateX(180px); 
+    background-color: #DBEDFB; 
+}
+
+  .circle5 {
+    transform: translateY(280px) translateX(400px);
+    background-color: black; 
+}
+
+  .circle6 {
+    transform: translateY(80px) translateX(480px); 
+    background-color: #D9B8D5; 
+  }
+
 }
