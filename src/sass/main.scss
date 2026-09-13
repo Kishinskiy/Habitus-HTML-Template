@@ -1,0 +1,11 @@
+@use 'normalize';
+@use 'header';
+@use 'main-hero';
+@use 'fonts';
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

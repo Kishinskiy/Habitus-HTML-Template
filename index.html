@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Habitus - Build Better Habits</title>
 </head>
 <body>
-    <h1 class="title">Hello from <span>Vite</span>!</h1>
+    <!-- Общая оболочка, которая держит и шапку, и мейн в одном поле зрения -->
+    <div class="app_wrapper">
+
+        <header class="header_container">
+          <nav class="navbar">
+              <div class="logo_block">
+                  <img src="/src/img/logo.svg" alt="logo">
+                  <h2 class="logo_title">Habitus</h2>
+              </div>
+              <ul class="menu_list">
+                  <li class="menu_list__item">Home</li>
+                  <li class="menu_list__item">Features</li>
+                  <li class="menu_list__item">How it works</li>
+                  <li class="menu_list__item">Blog</li>
+                  <li class="menu_list__item">Resources</li>
+                  <li class="menu_list__item">About Us</li>
+              </ul>
+              <button class="btn login">Login</button>
+          </nav>
+        </header>
+
+        <main class="hero_section">
+            <div class="hero_container">
+                <h1 class="title">Build Better Habits.<br> One Day at a Time.</h1>
+                <p class="second_text">Track your daily routines, stay consistent, and turn goals into habits — all in one beautiful app.</p>
+                <div class="main_btn__wrapper">
+                    <button class="btn primary">Get Started Free</button>
+                    <button class="btn secondary">
+                        <img src="/src/img/play.svg" alt="play_btn">
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="rating_label">
+                    <img src="/src/img/star.svg" alt="star">
+                    <p class="label_text">Loved by 1M+ users worldwide</p>
+                </div>
+            </div>
+        </main>
+
+    </div>
 
     <script type="module" src="/src/js/main.js"></script>
 </body>
