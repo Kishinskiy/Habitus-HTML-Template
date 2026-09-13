@@ -1,0 +1,15 @@
+$primary-color: #646cff;
+
+body {
+  font-family: sans-serif;
+  background-color: #242424;
+  color: white;
+
+  .title {
+    font-size: 3rem;
+
+    span {
+      color: $primary-color;
+    }
+  }
+}
